@@ -6,7 +6,7 @@ return [
     'connections' => [
         'mysql' => [
             'dsn' => '',
-            'dbdriver' => 'mysqli',
+            'driver' => 'mysql',
             'host' =>   'us-cdbr-east-06.cleardb.net',
             'database' => 'heroku_dbcb05f48e6226d',
             'username' => 'bb49b596994777',
