@@ -2,7 +2,7 @@
 /.idea
 Homestead.json
 Homestead.yaml
-.env
+
 .phpunit.result.cache
 
 /bootstrap/compiled.php
@@ -31,6 +31,3 @@ composer.phar
 
 
 /node_modules
-
-
-.env
