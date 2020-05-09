@@ -14,7 +14,7 @@ Homestead.yaml
 
 
 /app/tests/_log
-
+.env
 
 composer.phar
 
