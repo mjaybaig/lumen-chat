@@ -13,8 +13,7 @@ return [
             'password' => 'c8ab0123',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'pconnect' => FALSE,
-            'db_debug' => (ENVIRONMENT !== 'production')
+            'pconnect' => FALSE
         ],
     ]
 ];
