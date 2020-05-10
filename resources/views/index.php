@@ -132,8 +132,8 @@
                                 console.log(result);
                                 this.messages.push(result);
                                 this.text = '';
+                                this.$set("loading", false);
                                 Vue.nextTick(()=>{
-                                    this.$set("loading", false);
                                     document.getElementById('chatArea').scrollTop = document.getElementById('chatArea').scrollHeight;
                                 })
                             }                        
